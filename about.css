@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+
+.box1 {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(113, 169, 201, 0.164);
+    /* border: solid 2px rgba(30, 33, 192, 0.658); */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_bar {
+    display: flex;
+    height: 80%;
+    width: 35%;
+    /* background-color: blueviolet; */
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Goblin One', cursive;
+    font-style: italic;
+}
+
+.box2 {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    /* background-color: rgba(113, 169, 201, 0.164); */
+    border: solid 1px black;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box2pic {
+    height: 100%;
+    width: 20%;
+    border: solid 1px black;
+}
+
+.box3 {
+    display: flex;
+    height: 340px;
+    width: 100%;
+    background-color: rgba(113, 169, 201, 0.164);
+    /* border: solid 1px black; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.aboutus {
+    height: 90%;
+    width: 50%;
+    /* background-color: rgba(113, 169, 201, 0.164); */
+    /* border: solid 1px black; */
+    justify-content: space-evenly;
+    align-items: center; 
+    text-align: center;
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactbutton {
+    height:65px;
+    width:120px;
+    background-color: rgb(157, 231, 174);
+    border-radius: 12px;
+    font-family: 'Goblin One', cursive;
+    text-align: center;
+    /* color: white; */
+    font-size: 80%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.2s; 
+}
+
+.contactbutton:hover {
+    background-color: #3e8e41
+}
+
+.contactbutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+a{
+    color:black;
+    /* color: white */
+}
